@@ -133,5 +133,44 @@ a{
         background-image: none;
     }
 
+     header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .nav_links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .gallery{
+        display: none;
+    }
+
+    #gallery{
+        display: none;
+    }
+
+    .pricing{
+        display: flex;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        border: 2px solid #45ADDD;
+        flex-basis: 325px;
+    }
+
+    main li:nth-child(2)::after{
+        content: \01F44D;
+        
+    }
 
 }
