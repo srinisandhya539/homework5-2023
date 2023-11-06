@@ -88,11 +88,13 @@ a{
     .nav_links{
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
-    .nav_links .nav_item{
-        display: flex;
-        flex-direction: row;
+
+    nav{
+        width: 100%;
     }
+
 
     .pricing{
         display: flex;
