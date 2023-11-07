@@ -172,7 +172,7 @@ a{
     }
 
     main li:nth-child(2)::after{
-        content: \01F44D;
+        content: "👍"
         
     }
 
